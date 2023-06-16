@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="Aperture">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Aperture.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/aperture.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Aperture_2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/IMAGE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/chill.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/industries.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/hillsplays.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/hillsplayes.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/browser-icon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/twitter.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="Aperture" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/PHPStorm_Projects/Task",
+    "last_opened_file_path": "D:/PHPStorm_Projects/Aperture",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,6 +58,7 @@
       <updated>1686845209957</updated>
       <workItem from="1686845211770" duration="97000" />
       <workItem from="1686845488670" duration="2425000" />
+      <workItem from="1686848502280" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="Aperture">
       <created>1686845627201</created>
