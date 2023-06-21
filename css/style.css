@@ -91,6 +91,7 @@ header nav li:last-of-type a{
     box-sizing: border-box;
     align-items: center;
     padding-right: 62px;
+    position: relative;
 }
 .monstera {
     background-image: url("../images/monstera.jpg");
@@ -330,3 +331,102 @@ form button {
     background-image: url("../images/iceland.svg");
     width: 10px;
 }
+
+.specialized {
+    background-color: black;
+}
+
+.specialized .container {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.specialized .container h2 {
+    font: 400 40px/42px 'Poppins', sans-serif;
+    font-style: normal;
+    padding-top: 113px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+
+.specialized .container h2,
+.specialized .container h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.specialized .container h3 {
+    font: 400 23px/30px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.container .spec_areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 100px;
+    max-width: 1168px;
+    margin: auto;
+    gap: 16px;
+}
+
+.spec_areas article {
+    position: relative;
+    max-width: 576px;
+}
+
+.spec_areas .content {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: inline-block;
+}
+
+.spec_areas .image {
+    width: 100%;
+    display: block;
+}
+
+.spec_areas h4 {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.spec_areas p {
+    margin-bottom: 0;
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #C0C0C0;
+    padding-bottom: 17px;
+}
+
+.spec_areas a {
+    font: 400 15px/32px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #000000;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+}
+
+.spec_areas a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+}
+
+
