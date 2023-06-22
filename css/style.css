@@ -199,14 +199,14 @@ footer .container {
     max-width: 1168px;
     margin: auto;
 }
-.first {
+.container .first {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     padding-bottom: 46px;
     border-bottom: 2px solid #FFFFFF;
 }
-.content {
+.container .content {
     display: flex;
     margin-right: 106px;
  }
