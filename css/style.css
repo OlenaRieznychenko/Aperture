@@ -265,9 +265,13 @@ footer .container {
     border-radius: 12px;
 }
 .form input {
-    visibility: hidden;
-    width: 380px;
+    width: 360px;
+    border: none;
+    padding-left: 10px;
     }
+.form input::placeholder {
+    color: transparent;
+}
 .form input:focus {
     outline: none;
 }
@@ -279,6 +283,7 @@ form button {
     border: none;
     margin-left: auto;
     margin-right: 6px;
+     color: transparent;
 }
 .third {
     display: flex;
