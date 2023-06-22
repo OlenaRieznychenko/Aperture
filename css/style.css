@@ -434,5 +434,84 @@ form button {
     background-color: black;
     margin-right: 6px;
 }
+.gear_cage {
+    background-color: black;
+    position: relative;
+    min-height: 540px;
+}
+
+.gear_cage .container {
+    max-width: 1168px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gear_cage article {
+    align-items: flex-start;
+    flex-direction: column;
+    width: 720px;
+}
+
+.gear_cage article h4 {
+    font: 400 14px/20px 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-top: 25%;
+    margin-bottom: 6px;
+}
+
+.gear_cage article h3 {
+    font: 400 28px/32px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.gear_cage article p {
+    width: 504px;
+    font: 400 14px/20px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.gear_cage article a {
+    font: 400 16px/32px 'Poppins', sans-serif;
+    font-style: normal;
+    color: #000000;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 5px 10px 5px 4px;
+}
+
+.gear_cage article a:before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 6px;
+}
+
+.gear_cage .right_side {
+    min-height: 540px;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../images/tools.jpg");
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 
