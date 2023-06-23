@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="Aperture.2">
+    <list default="true" id="5c3fbe55-7aeb-4d35-a1c4-e10e1961b61d" name="Changes" comment="Aperture.210623">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,8 @@
       <workItem from="1686915404772" duration="1256000" />
       <workItem from="1686916728608" duration="612000" />
       <workItem from="1687282930665" duration="171000" />
+      <workItem from="1687360990695" duration="741000" />
+      <workItem from="1687534805638" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="Aperture">
       <created>1686845627201</created>
@@ -107,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686917182416</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Aperture.210623">
+      <created>1687361091799</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687361091799</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +148,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aperture" />
     <MESSAGE value="Aperture.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aperture.2" />
+    <MESSAGE value="Aperture.210623" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aperture.210623" />
   </component>
 </project>

@@ -6,7 +6,7 @@
 header {
     background: #181818;
     padding: 24px 0;
-    }
+}
 header .container {
     max-width: 1200px;
     margin: auto;
@@ -43,7 +43,7 @@ header nav li:last-of-type a{
     background: #FFFFFF;
     border-radius: 14px;
     font-size: 16px;
-     color: #000000;
+    color: #000000;
     padding: 11px 20px;
 }
 .main {
@@ -53,7 +53,6 @@ header nav li:last-of-type a{
     padding-bottom: 71px;
     background-image: url("../images/main-background.jpg");
     background-size: cover;
-    box-sizing: border-box;
     height: calc(100vh - 83px);
     position: relative;
 }
@@ -209,7 +208,7 @@ footer .container {
 .container .content {
     display: flex;
     margin-right: 106px;
- }
+}
 .logo p, .subscribe p   {
     font: 400 13px/20px 'Poppins', sans-serif;
     font-style: normal;
@@ -230,7 +229,7 @@ footer .container {
     color: #FFFFFF;
 }
 .business li:nth-child(1),
-.pages li:nth-child(1), .second-footer h4 {
+.pages li:nth-child(1), .subscribe h4  {
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
     letter-spacing: 2px;
@@ -268,7 +267,7 @@ footer .container {
     width: 360px;
     border: none;
     padding-left: 10px;
-    }
+}
 .form input::placeholder {
     color: transparent;
 }
@@ -283,7 +282,7 @@ form button {
     border: none;
     margin-left: auto;
     margin-right: 6px;
-     color: transparent;
+    color: transparent;
 }
 .third {
     display: flex;
