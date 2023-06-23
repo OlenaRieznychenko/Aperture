@@ -1,0 +1,409 @@
+/*@media only screen and (max-width: 1024px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 1024px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 992px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 992px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 834px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 834px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 820px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 820px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 800px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 800px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 768px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 768px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 428px) {*/
+/*    !* Ваш код стилей для устройств с диагональю 428px *!*/
+/*}*/
+
+/*@media only screen and (max-width: 414px) {*/
+
+/*}*/
+
+/*@media only screen and (max-width: 390px) {*/
+
+/*}*/
+
+/*@media only screen and (max-width: 375px) {*/
+
+/*}*/
+
+/*@media only screen and (max-width: 360px) {*/
+
+/*}*/
+
+/*@media only screen and (max-width: 320px) {*/
+
+/*}*/
+
+/*@media only screen and (max-width: 280px) {*/
+
+/*}*/
+
+/* Стили для экранов шириной от 1024px (настольные компьютеры) */
+
+/* Общие стили */
+
+/* Стили для диагонали 768px */
+@media (max-width: 882px) {
+    header .container {
+        padding-left: 16px;
+        padding-right: 10px;
+    }
+
+    header nav ul li {
+        margin-left: 16px;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 10px;
+    }
+
+    header nav ul li:last-of-type {
+        margin-left: 15px;
+    }
+
+    header nav li:last-of-type a {
+        font-size: 14px;
+    }
+
+    .main {
+        padding-bottom: 142px;
+    }
+
+    .main article {
+        max-width: 580px;
+    }
+
+    .sunset {
+        padding-right: 30px;
+    }
+
+    .sunset article {
+        max-width: 220px;
+    }
+
+    .clients .container {
+        max-width: 960px;
+    }
+
+    .clients h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .clients h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 60px;
+    }
+
+    .help {
+        padding: 60px 20px;
+    }
+
+    .item {
+        width: 140px;
+        height: 36px;
+    }
+
+    .item::before {
+        width: 24px;
+        height: 24px;
+        margin-right: 4px;
+    }
+
+    .help article h2 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .help article h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 18px;
+    }
+
+    .specialized .container {
+        max-width: 768px;
+    }
+
+    .container .spec_areas {
+        padding-bottom: 30px;
+        max-width: 768px;
+
+    }
+
+    .specialized .container h2 {
+        padding-top: 60px;
+        margin-bottom: 15px;
+    }
+
+    .gear_cage article {
+        margin-left: 20px;
+    }
+
+    .gear_cage article p {
+        width: 360px;
+
+    }
+
+    footer .container {
+        max-width: 900px;
+        padding-left: 20px;
+    }
+
+    .business {
+        margin-right: 40px;
+    }
+
+    .second {
+        margin-bottom: 30px;
+    }
+
+    .form {
+        width: 340px;
+        height: 42px;
+    }
+
+    .form input {
+        width: 250px;
+    }
+
+    .subscribe p {
+        padding-bottom: 20px;
+    }
+
+    .third {
+        padding: 28px 0 50px;
+    }
+
+    .third p {
+        font-size: 12px;
+    }
+
+    .third .social {
+        margin-right: 26px;
+
+    }
+}
+
+/* Стили для диагонали 428px */
+@media (max-width: 749px) {
+    header .container {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    header nav ul li {
+        margin-left: 5px;
+    }
+
+    header nav ul li:first-of-type {
+        margin-right: 5px;
+        font-size: 9px;
+    }
+
+    header nav ul li:first-of-type a {
+        font-size: 9px;
+    }
+
+    header nav ul li:last-of-type {
+        margin-left: 5px;
+        font-size: 9px;
+    }
+
+    header nav li:last-of-type a {
+        font-size: 9px;
+        color: #000000;
+        padding: 5px 5px;
+        white-space: nowrap;
+        margin-left: 5px;
+    }
+
+    header nav a {
+        font-size: 8px;
+    }
+
+    .main {
+        max-height: 428px;
+        padding-bottom: 95px;
+    }
+
+    .main article {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main article h3 {
+        font-size: 12px;
+    }
+
+    .main article h1 {
+        font-size: 37px;
+    }
+
+    .main article p {
+        font-size: 12px;
+    }
+    .specialized .container {
+        max-width: 428px;
+        margin: auto;
+    }
+    .spec_areas .content {
+        bottom: 15px;
+        left: 15px;
+        flex-direction: column;
+    }
+    .spec_areas a {
+max-width: 140px;
+    }
+    .gear_cage .container {
+        max-width: 428px;
+    }
+
+    .gear_cage article p {
+        max-width: 180px;
+        font-size: 9px;
+    }
+
+    .gear_cage article h4 {
+        font-size: 9px;
+    }
+
+    .gear_cage article h3 {
+        font-size: 14px;
+    }
+
+    .gear_cage article a {
+        font-size: 12px;
+        padding: 3px 5px 3px 2px;
+    }
+
+    .gear_cage article a:before {
+        margin-right: 3px;
+    }
+
+    .gear_cage .right_side .bottom_icons {
+        right: 25px;
+        bottom: 20px;
+    }
+
+    .gear_cage .right_side .bottom_icons li {
+        font-size: 8px;
+        margin-left: 0;
+    }
+
+    .gear_cage .right_side .bottom_icons li:before {
+        margin-right:4px;
+    }
+
+    .sunset {
+        padding-right: 20px;
+    }
+
+    .sunset article {
+        max-width: 160px;
+    }
+
+    .clients .container {
+        max-width: 320px;
+    }
+
+    .clients h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .clients h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+
+    .help {
+        padding: 40px 10px;
+    }
+
+    .help .item {
+        width: 100px;
+        height: 28px;
+        font-size: 10px;
+    }
+
+    .help .item::before {
+        width: 16px;
+        height: 16px;
+        margin-right: 2px;
+    }
+
+    .help article h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .help article h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+
+    footer .container {
+        max-width: 428px;
+        padding-top: 50px;
+    }
+    .container .first {
+        padding-bottom: 20px;
+    }
+    .container .content {
+        display: flex;
+        margin-right: 35px;
+    }
+
+    .business {
+        margin-right: 20px;
+    }
+
+    .second {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        width: 180px;
+        height: 32px;
+        margin-right: 10px;
+    }
+    .subscribe h4 {
+        margin-top: 16px;
+    }
+    .form input {
+        width: 90px;
+    }
+    form button {
+        width: 32px;
+        height: 15px;
+    }
+    .subscribe p {
+        padding-bottom: 16px;
+    }
+
+    .third p {
+        font-size: 10px;
+
+    }
+    .third .social {
+        margin-right:10px;
+        margin-left: 0;
+
+    }
+}
