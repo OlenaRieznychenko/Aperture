@@ -3,10 +3,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 header {
     background: #181818;
     padding: 24px 0;
+    /*position: fixed;*/
+    /*z-index: 99;*/
+    /*width: 100%;*/
 }
+
 header .container {
     max-width: 1200px;
     margin: auto;
@@ -16,6 +21,7 @@ header .container {
     align-items: center;
     justify-content: space-between;
 }
+
 header nav ul {
     list-style: none;
     display: flex;
@@ -25,58 +31,69 @@ header nav ul {
 header nav ul li {
     margin-left: 32px;
 }
+
 header nav ul li:first-of-type {
     margin-right: 24px;
 }
+
 header nav ul li:last-of-type {
     margin-left: 31px;
 }
+
 header nav a {
     color: #FFFFFF;
     text-decoration: none;
-    font: 400 15px/20px'Poppins', sans-serif;
+    font: 400 15px/20px 'Poppins', sans-serif;
 }
+
 header nav ul li:first-of-type a {
     font-size: 13px;
 }
-header nav li:last-of-type a{
+
+header nav li:last-of-type a {
     background: #FFFFFF;
     border-radius: 14px;
     font-size: 16px;
     color: #000000;
     padding: 11px 20px;
 }
-.main {
+
+.main_screen {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 71px;
     background-image: url("../images/main-background.jpg");
     background-size: cover;
+    /*box-sizing: border-box;*/
     height: calc(100vh - 83px);
     position: relative;
 }
-.main article {
+
+.main_screen article {
     max-width: 580px;
 }
-.main article h3{
+
+.main_screen article h3 {
     margin-bottom: 1px;
-    font: 400 14px/20px'Poppins', sans-serif;
+    font: 400 14px/20px 'Poppins', sans-serif;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #C0C0C0;
 
 }
-.main article h1{
+
+.main_screen article h1 {
     margin-bottom: 18px;
-    font: 400 54px/59px'Poppins', sans-serif;
+    font: 400 54px/59px 'Poppins', sans-serif;
     text-align: center;
     color: #FFFFFF;
 
 }
-.main article p{
-    font: 400 14px/20px'Poppins', sans-serif;
+
+.main_screen article p {
+    font: 400 14px/20px 'Poppins', sans-serif;
     text-align: center;
     color: #C0C0C0;
 }
@@ -92,15 +109,19 @@ header nav li:last-of-type a{
     padding-right: 62px;
     position: relative;
 }
+
 .monstera {
     background-image: url("../images/monstera.jpg");
 }
-.hymalayas {
+
+.himalayas {
     background-image: url("../images/himalayas.jpg");
 }
+
 .sunset article {
     max-width: 300px;
 }
+
 .sunset article h4 {
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
@@ -108,47 +129,56 @@ header nav li:last-of-type a{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .sunset article p {
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
     color: #C0C0C0;
 }
+
 .clients {
     padding: 113px 0 140px;
     background-color: black;
 }
+
 .clients .container {
     max-width: 1168px;
     margin: auto;
 }
-.clients h2{
+
+.clients h2 {
     font: 400 40px/42px 'Poppins', sans-serif;
     font-style: normal;
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
 }
-.clients h3{
+
+.clients h3 {
     font: 400 24px/30px 'Poppins', sans-serif;
     font-style: normal;
     text-align: center;
     margin-bottom: 82px;
     color: #C0C0C0;
 }
+
 .clients .flex_block {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .clients .flex_block a {
     display: inline-block;
     margin: 0 10px;
     max-width: 128px;
 }
+
 .clients .flex_block a img {
     display: block;
     width: 100%;
 }
+
 .help {
     display: flex;
     text-align: center;
@@ -156,6 +186,7 @@ header nav li:last-of-type a{
     background: #000000;
     padding: 113px 434px 108px 435px;
 }
+
 .item {
     display: inline-flex;
     margin: auto;
@@ -169,6 +200,7 @@ header nav li:last-of-type a{
     width: 154px;
     height: 42px;
 }
+
 .item::before {
     content: "";
     width: 32px;
@@ -177,6 +209,7 @@ header nav li:last-of-type a{
     border-radius: 50%;
     margin: 5px 6px 5px 4px;
 }
+
 .help article h2 {
     max-width: 571px;
     font: 400 40px/42px 'Poppins', sans-serif;
@@ -184,43 +217,52 @@ header nav li:last-of-type a{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
+
 .help article h3 {
     font: 400 24px/30px 'Poppins', sans-serif;
     text-align: center;
     color: #C0C0C0;
     margin-bottom: 22px;
 }
+
 footer {
     background: #000000;
     padding-top: 100px;
 }
+
 footer .container {
     max-width: 1168px;
     margin: auto;
 }
-.container .first {
+
+.first-footer {
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     padding-bottom: 46px;
     border-bottom: 2px solid #FFFFFF;
 }
-.container .content {
+
+.first-footer .content {
     display: flex;
     margin-right: 106px;
 }
-.logo p, .subscribe p   {
+
+.logo p, .subscribe p {
     font: 400 13px/20px 'Poppins', sans-serif;
     font-style: normal;
     margin-top: 20px;
     color: #C0C0C0;
 }
+
 .logo a {
     background: transparent;
 }
-.business li,.pages li {
+
+.business li, .pages li {
     margin-bottom: 10px;
 }
+
 .business li:not(:nth-child(1)) a,
 .pages li:not(:nth-child(1)) a {
     font: 400 14px/20px 'Poppins', sans-serif;
@@ -228,8 +270,9 @@ footer .container {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 .business li:nth-child(1),
-.pages li:nth-child(1), .subscribe h4  {
+.pages li:nth-child(1), .second-footer h4 {
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
     letter-spacing: 2px;
@@ -237,23 +280,27 @@ footer .container {
     text-decoration: none;
     color: #C0C0C0;
 }
+
 .business {
     margin-right: 55px;
 }
-.second {
+
+.second-footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-sizing: border-box;
     border-bottom: 2px solid #FFFFFF;
 }
-.subscribe h4 {
+
+.second-footer .subscribe h4 {
     margin-top: 36px;
 }
-.subscribe p {
+
+.second-footer .subscribe p {
     padding-bottom: 38px;
 }
-.form {
+
+.second-footer .form {
     display: flex;
     width: 458px;
     height: 52px;
@@ -263,18 +310,22 @@ footer .container {
     border: 1px solid #E5E7EB;
     border-radius: 12px;
 }
-.form input {
+
+.second-footer .form input {
     width: 360px;
     border: none;
     padding-left: 10px;
+    background: #F9FAFB;
 }
+
 .form input::placeholder {
     color: transparent;
 }
-.form input:focus {
+.second-footer .form input:focus {
     outline: none;
 }
-form button {
+
+.second-footer form button {
     width: 63px;
     height: 30px;
     background: #000000;
@@ -284,23 +335,26 @@ form button {
     margin-right: 6px;
     color: transparent;
 }
-.third {
+
+.third-footer {
     display: flex;
     margin: auto;
     justify-content: space-between;
-    box-sizing: border-box;
     align-items: center;
     padding: 56px 0 100px;
 }
-.third p {
+
+.third-footer p {
     justify-content: flex-start;
     font: 400 13px/1em 'Poppins', sans-serif;
     font-style: normal;
     color: #C0C0C0;
 }
-.third a {
+
+.third-footer a {
     margin-left: 26px;
 }
+
 .bottom_icons {
     display: flex;
     list-style: none;
@@ -311,12 +365,13 @@ form button {
 .bottom_icons li {
     font: 400 12px/12px 'Poppins', sans-serif;
     font-style: normal;
-    font-size: 12px;
+    /*font-size: 12px;*/
     color: #FFFFFF;
     margin-left: 16px;
 }
+
 .bottom_icons li:before {
-    content:"";
+    content: "";
     display: inline-block;
     background-image: url("../images/12000s.svg");
     width: 16px;
@@ -325,28 +380,31 @@ form button {
     position: relative;
     bottom: -5px;
 }
+
 .bottom_icons li:nth-of-type(2):before {
     background-image: url("../images/f11.svg");
 }
+
 .bottom_icons li:nth-of-type(3):before {
     background-image: url("../images/iso.svg");
     width: 32px;
 }
+
 .bottom_icons li:last-of-type:before {
     background-image: url("../images/iceland.svg");
     width: 10px;
 }
 
-.specialized {
+.what_we_do {
     background-color: black;
 }
 
-.specialized .container {
+.what_we_do .container {
     max-width: 1168px;
     margin: auto;
 }
 
-.specialized .container h2 {
+.what_we_do .container h2 {
     font: 400 40px/42px 'Poppins', sans-serif;
     font-style: normal;
     padding-top: 113px;
@@ -354,21 +412,21 @@ form button {
     color: #FFFFFF;
 }
 
-.specialized .container h2,
-.specialized .container h3 {
+.what_we_do .container h2,
+.what_we_do .container h3 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.specialized .container h3 {
+.what_we_do .container h3 {
     font: 400 23px/30px 'Poppins', sans-serif;
     font-style: normal;
     color: #C0C0C0;
     margin-bottom: 42px;
 }
 
-.container .spec_areas {
+.container .areas {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -378,24 +436,26 @@ form button {
     gap: 16px;
 }
 
-.spec_areas article {
+.areas article {
     position: relative;
     max-width: 576px;
+    /*width: calc(50% - 8px);*/
 }
 
-.spec_areas .content {
+.areas .content {
     position: absolute;
     bottom: 30px;
     left: 30px;
     display: inline-block;
+
 }
 
-.spec_areas .image {
+.areas .image {
     width: 100%;
     display: block;
 }
 
-.spec_areas h4 {
+.areas h4 {
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
     letter-spacing: 2px;
@@ -404,7 +464,7 @@ form button {
     padding-bottom: 10px;
 }
 
-.spec_areas p {
+.areas p {
     margin-bottom: 0;
     font: 400 14px/20px 'Poppins', sans-serif;
     font-style: normal;
@@ -412,7 +472,7 @@ form button {
     padding-bottom: 17px;
 }
 
-.spec_areas a {
+.areas a {
     font: 400 15px/32px 'Poppins', sans-serif;
     font-style: normal;
     color: #000000;
@@ -424,15 +484,16 @@ form button {
     padding: 5px 10px 5px 4px;
 }
 
-.spec_areas a:before {
-    content: "";
+.areas a:before {
     display: inline-block;
+    content: "";
     width: 32px;
     height: 32px;
     border-radius: 50%;
     background-color: black;
     margin-right: 6px;
 }
+
 .gear_cage {
     background-color: black;
     position: relative;
@@ -511,6 +572,7 @@ form button {
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
-
+.owl-stage {
+    display: flex;
+    align-items: center;
+}
