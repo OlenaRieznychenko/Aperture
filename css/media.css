@@ -51,7 +51,7 @@
 /*}*/
 
 /* Стили для диагонали 768px */
-@media (max-width: 768px) {
+@media (max-width: 882px) {
     header .container {
         padding-left: 16px;
         padding-right: 10px;
@@ -154,17 +154,21 @@
 
     }
 
+
     footer .content {
         justify-content: space-around;
     }
-    footer .container{
+
+    footer .container {
         margin-left: 20px;
         padding-top: 20px;
     }
+
     .first-footer p {
         margin-bottom: 10px;
         max-width: 300px;
     }
+
     .logo p, .subscribe p {
         font-size: 12px;
     }
@@ -184,7 +188,8 @@
     }
 
     .business {
-        margin-right: 35px;}
+        margin-right: 35px;
+    }
 
 
     .second-footer .form {
@@ -194,9 +199,11 @@
         margin-right: 20px;
 
     }
+
     .second-footer .form input {
         width: 260px;
     }
+
     .subscribe p {
         padding-bottom: 20px;
     }
@@ -211,8 +218,8 @@
 
     .third-footer .social {
         margin-right: 26px;
-
     }
+
     .flex_block.owl-carousel .owl-item {
         display: flex;
         justify-content: center;
@@ -239,7 +246,10 @@
         display: block;
     }
 
-     header nav ul li {
+    /*header nav ul li a {*/
+    /*    justify-content: space-around;*/
+    /*}*/
+    header nav ul li {
         margin-left: 0;
         margin-bottom: 12px;
     }
@@ -255,7 +265,6 @@
 
     header nav ul li:last-of-type {
         margin-left: 0;
-        margin-right: 15px;
     }
 
     header nav li:last-of-type a {
@@ -339,6 +348,7 @@
         align-items: center;
         padding-top: 30%;
     }
+
     .gear_cage article {
         width: 100%;
     }
@@ -436,10 +446,12 @@
         justify-content: space-around;
 
     }
+
     .first-footer p {
         margin-bottom: 10px;
         max-width: 220px;
     }
+
     .logo p, .subscribe p {
         font-size: 12px;
     }
@@ -461,9 +473,11 @@
     .business {
         margin-right: 25px;
     }
+
     .second-footer .subscribe h4 {
         margin-top: 19px;
     }
+
     .second-footer .form {
         width: 225px;
         height: 42px;
@@ -471,15 +485,19 @@
         margin-right: 10px;
 
     }
+
     .second-footer .form input {
         width: 160px;
     }
+
     .third-footer a {
         margin-left: 12px;
     }
+
     .third-footer p {
         font-size: 10px;
     }
+
     .flex_block.owl-carousel .owl-item {
         display: flex;
         justify-content: center;
@@ -488,5 +506,24 @@
     .flex_block.owl-carousel .owl-item img {
         width: 100%;
     }
+    #dialog {
+        max-width: 200px;
+        display: inline-block;
+        font-size: 15px;
+        align-items: center;
+
+    }
+    .ui-dialog-titlebar {
+        max-width: 200px;
+        font-size: 15px;
+    }
+    .ui-dialog .ui-dialog-title {
+        width: 90%;
+        margin: 0;
+    }
+    .ui-widget-content {
+        background: transparent;
+    }
+
 }
 

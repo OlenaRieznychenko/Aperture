@@ -65,7 +65,6 @@ header nav li:last-of-type a {
     padding-bottom: 71px;
     background-image: url("../images/main-background.jpg");
     background-size: cover;
-    /*box-sizing: border-box;*/
     height: calc(100vh - 83px);
     position: relative;
 }
@@ -572,7 +571,167 @@ footer .container {
     background-position: center;
     background-repeat: no-repeat;
 }
-.owl-stage {
+.clients .owl-stage {
     display: flex;
     align-items: center;
+    text-align: center;
 }
+.clients .owl-nav .owl-prev{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -36px;
+    top: 36px;
+    transform: rotate(90deg);
+
+}
+.clients .owl-nav .owl-prev:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+.clients .owl-nav .owl-next{
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: -36px;
+    top: 36px;
+    transform: rotate(-90deg);
+}
+.clients .owl-nav .owl-next:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: solid 48px transparent;
+    border-top: solid 48px white;
+    border-left: solid 48px transparent;
+    border-right: solid 48px transparent;
+    top: -49px;
+    left: -48px;
+}
+
+#dialog {
+   margin: auto;
+   overflow: hidden;
+}
+.ui-widget.ui-widget-content{
+    width: 500px !important;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0;
+}
+.ui-widget {
+    font: 400 20px/30px 'Poppins', sans-serif;
+    color: white;
+}
+
+.ui-widget-content {
+    border: 10px;
+    border-radius: 10px;
+    background: black;
+    color: white;}
+
+.ui-widget.ui-widget-content {
+    border: 10px;
+}
+.ui-dialog .ui-dialog-content {
+    padding: 0;
+}
+.ui-dialog .ui-dialog-title {
+    width: 55%;
+    margin: 0;
+    border: none;
+    outline: transparent;
+    padding-left: 10px;
+}
+#dialog .form {
+    background-image: url("../images/diagram.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#dialog .form p {
+    padding: 7px;
+}
+.ui-widget-header {
+    background: transparent;
+    color: #F9FAFB;
+    border: none;
+}
+#dialog .form button {
+    padding: 7px;
+    margin: 10px 0 0 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    overflow: hidden;
+}
+
+#dialog .form button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: 2px solid;
+    border-image: linear-gradient(to right, red, blue);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: .3em;
+    top: 50%;
+    width: 20px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ui-dialog .ui-dialog-titlebar-close::before,
+.ui-dialog .ui-dialog-titlebar-close::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    height: 2px;
+    background-color: gray;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: background-color 0.3s ease;
+}
+
+.ui-dialog .ui-dialog-titlebar-close::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover::before,
+.ui-dialog .ui-dialog-titlebar-close:hover::after {
+    background-color: red;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0;
+}
+
+

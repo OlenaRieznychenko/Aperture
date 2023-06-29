@@ -2,9 +2,9 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         loop:true,
         autoplay:false,
-        autoplayTimeout:2000,
+        autoplayTimeout:5000,
         navText: [ '', ' ' ],
-        nav: false,
+        nav: true,
         dots: true,
         responsive:{
             0:{
@@ -15,4 +15,21 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
 });
