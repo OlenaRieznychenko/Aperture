@@ -643,23 +643,19 @@ footer .container {
 }
 
 .ui-widget-content {
-    border: 10px;
-    border-radius: 10px;
+    border: 0;
     background: black;
     color: white;}
 
 .ui-widget.ui-widget-content {
-    border: 10px;
+    border: none;
 }
 .ui-dialog .ui-dialog-content {
     padding: 0;
 }
 .ui-dialog .ui-dialog-title {
-    width: 55%;
+    width: 65%;
     margin: 0;
-    border: none;
-    outline: transparent;
-    padding-left: 10px;
 }
 #dialog .form {
     background-image: url("../images/diagram.jpg");
@@ -669,69 +665,9 @@ footer .container {
 #dialog .form p {
     padding: 7px;
 }
-.ui-widget-header {
-    background: transparent;
-    color: #F9FAFB;
-    border: none;
-}
 #dialog .form button {
     padding: 7px;
     margin: 10px 0 0 10px;
     border: none;
     outline: none;
-    position: relative;
-    overflow: hidden;
 }
-
-#dialog .form button::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: 2px solid;
-    border-image: linear-gradient(to right, red, blue);
-    border-image-slice: 1;
-    border-radius: 10px;
-}
-.ui-dialog .ui-dialog-titlebar-close {
-    position: absolute;
-    right: .3em;
-    top: 50%;
-    width: 20px;
-    margin: -10px 0 0 0;
-    padding: 1px;
-    height: 20px;
-    border: none;
-    outline: none;
-    background-color: transparent;
-    cursor: pointer;
-}
-
-.ui-dialog .ui-dialog-titlebar-close::before,
-.ui-dialog .ui-dialog-titlebar-close::after {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 60%;
-    height: 2px;
-    background-color: gray;
-    transform: translate(-50%, -50%) rotate(45deg);
-    transition: background-color 0.3s ease;
-}
-
-.ui-dialog .ui-dialog-titlebar-close::after {
-    transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-.ui-dialog .ui-dialog-titlebar-close:hover::before,
-.ui-dialog .ui-dialog-titlebar-close:hover::after {
-    background-color: red;
-}
-.ui-dialog .ui-dialog-titlebar {
-    padding: 0;
-}
-
-
